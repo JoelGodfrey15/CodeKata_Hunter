@@ -14,8 +14,8 @@ def main():
     if c==[]:
         print('unique')
     else:
-        q=' '.join(c)
-        print(q)
+        for i in c:
+            print(i, end=' ')
 
 
 
