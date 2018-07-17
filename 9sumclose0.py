@@ -10,7 +10,7 @@ def main():
             if abs(l[i]+l[j])<a:
                 a=l[i]+l[j]
                 b,c=l[i],l[j]
-    print(b,' ',c)
+    print(b,'',c)
 
 if __name__ == '__main__':
     main()
