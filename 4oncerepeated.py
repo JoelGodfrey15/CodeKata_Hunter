@@ -1,8 +1,7 @@
 def main():
     n=int(input())
-    l=[]
-    for i in range(n):
-        l.append(input())
+    a=input()
+    l=a.split()
     for i in l:
         if l.count(i)==1:
             print(i)
