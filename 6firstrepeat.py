@@ -1,10 +1,9 @@
 def main():
     n=int(input())
-    l=[]
+    a=input()
     s=0
     k=None
-    for i in range(n):
-        l.append(input())
+    l=a.split()
     for i in l:
         if s==0:
             j=l.count(i)
