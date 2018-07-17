@@ -5,6 +5,7 @@ def main():
     l.sort()
     l.reverse()
     a=''.join(l)
+    a=int(a)
     print(a)
 
 
