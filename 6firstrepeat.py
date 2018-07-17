@@ -4,11 +4,12 @@ def main():
     s=0
     k=None
     l=a.split()
-    for i in l:
+    l=l[0:n]
+    for i in range(n):
         if s==0:
-            j=l.count(i)
+            j=l.count(l[i])
             if j>1:
-                k=i
+                k=l[i]
                 print(k)
                 s=1
     if k==None:
