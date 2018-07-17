@@ -1,8 +1,9 @@
 def main():
     n=int(input())
-    l=[]
+    a=input()
+    l=a.split()
     for i in range(n):
-        l.append(int(input()))
+        l[i]=int(l[i])
     for i in range(len(l)):
         if(l[i]%2==0 and i%2==1) or (l[i]%2==1 and i%2==0):
             print(l[i],end=' ')
