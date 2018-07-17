@@ -1,9 +1,8 @@
 def main():
     n=int(input())
-    l=[]
+    a=input()
     c=[]
-    for i in range(n):
-        l.append(input())
+    l=a.split()
     for i in range(len(l)):
         if int(l[i])==i:
             c.append(l[i])
