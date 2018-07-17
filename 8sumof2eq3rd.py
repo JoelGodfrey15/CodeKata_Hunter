@@ -1,8 +1,9 @@
 def main():
     n=int(input())
-    l=[]
+    a=input()
+    l=a.split()
     for i in range(n):
-        l.append(int(input()))
+    	l[i]=int(l[i])
     l.sort()
     for i in range(len(l)):
         for j in range(i+1,len(l)):
